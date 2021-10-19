@@ -54,6 +54,27 @@ En la primera prueba del RGB me dí cuenta de que este no funcionaba como en el 
 <div align="center"> 2. </div>
 Al trabajar sin cambiar los ciclos de cada componente RGB (ejercicio 2) me encontré con el problema de que al combinar algún color con el rojo, predominaba el rojo. Entonces puse una resitencia para cada componente RGB en vez de 1 solo para el cátodo. Probé con varias pero rebajaban demasiado la corriente en el rojo. La solución fué poner la misma resistencia a las 3 componentes por separado. Al realizar esto los colores secundarios dieron una calidad más que aceptable.
 
+## Experiencia en el [proyecto 3](https://github.com/clases-julio/p3-interrupciones-amadinabeitia2020)
+
+### Descripción del proyecto:
+En este proyecto practicamos con el concepto de interrupciones, concepto que nunca había trabajado y es interesante.
+
+
+### Conceptos repasados
+- Programación concurrente: Ejecución de varias tareas a la vez (distintos hilos de ejecución)
+- Programación secuencial: Ejecuta el programa linea a linea (msimo hilo de ejecución)
+
+### Comprobación de sobrecarga de memoria:
+Pude comprobar como al no poner un time.sleep aunque sea mínimo se puede sobrecargar la memoria:
+
+INSERTAR CAPTURA DE LA MEMORA DE LA RASPBY!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Además conocí la interrupción wait_for_edge pero sobretodo la interrupción add_event_efect la cual veo bastante util ya que simplifica el código y en una instrucción nos deja solventar los problemas de wait_for_edge
+Pude comprobar como al no poner un time.sleep aunque sea mínimo se puede sobrecargar la memoria:
+
+INSERTAR CAPTURA DE LA MEMORA DE LA RASPBY!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Además conocí la interrupción wait_for_edge pero sobretodo la interrupción add_event_efect la cual veo bastante util ya que simplifica el código y en una instrucción nos deja solventar los problemas de wait_for_edge
 
 
 ## Bibliográfia
