@@ -70,11 +70,6 @@ Pude comprobar como al no poner un time.sleep aunque sea mínimo se puede sobrec
 INSERTAR CAPTURA DE LA MEMORA DE LA RASPBY!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 Además conocí la interrupción wait_for_edge pero sobretodo la interrupción add_event_efect la cual veo bastante util ya que simplifica el código y en una instrucción nos deja solventar los problemas de wait_for_edge
-Pude comprobar como al no poner un time.sleep aunque sea mínimo se puede sobrecargar la memoria:
-
-INSERTAR CAPTURA DE LA MEMORA DE LA RASPBY!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-Además conocí la interrupción wait_for_edge pero sobretodo la interrupción add_event_efect la cual veo bastante util ya que simplifica el código y en una instrucción nos deja solventar los problemas de wait_for_edge
 
 
 ## Bibliográfia
