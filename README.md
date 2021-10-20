@@ -69,8 +69,10 @@ Pude comprobar como al no poner un time.sleep aunque sea mínimo se puede sobrec
 
 INSERTAR CAPTURA DE LA MEMORA DE LA RASPBY!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-Además conocí la interrupción wait_for_edge pero sobretodo la interrupción add_event_efect la cual veo bastante util ya que simplifica el código y en una instrucción nos deja solventar los problemas de wait_for_edge
+### Implementación vía hardware
+Hablando con un compañero (Ivan Porras) legamos a la conclusión que debido a la naturaleza del prgrama sería mucho mas sencilla una implementación hardware. Por el funcionamiento del botón cuando este se presiona deja pasar la corriente y enciende el led, una vez que se suelte el led dejará de lucir. Esto nos quitaría la necesidad de tener que implementarlo de manera software.
 
+INSERTAR IMAGEN Y VIDEO CIRCUITO POR HARDWARE!!!!!!!!!!!!!!!!!
 
 ## Bibliográfia
 [Etiquetas HTML para README.md](https://github.com/MineiToshio/CursosPlatzi/blob/master/Curso%20de%20Desarrollo%20Web%20Online/README.md)
