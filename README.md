@@ -24,7 +24,7 @@ En este proyecto tuve que crear un token en git para poder subir cambios al repo
 ### Atajo
 El token es prácticamente imposible de memorizar, para no introducirlo cada vez que subamos un commit creé un alias que guardara en caché el usuario y el token (comado dicho por el profesor en clase)
 ```bash
-git conifg --global alias.tok 'config --global credential.helper cache --timeout=3600'
+git config --global alias.tok 'config --global credential.helper cache --timeout=3600'
 
 # Después para ejecutar el comando:
 git tok
