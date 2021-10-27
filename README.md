@@ -66,15 +66,15 @@ Pude comprobar como al no poner un time.sleep aunque sea mínimo se puede sobrec
 ![alt text](https://github.com/amadinabeitia2020/wiki-sensores-y-actuadores/blob/main/src/1-recursos.png?raw=true)
 
 ### Implementación vía hardware
-Hablando con un compañero (Ivan Porras) legamos a la conclusión que debido a la naturaleza del prgrama sería mucho mas sencilla una implementación hardware.
+Hablando con un compañero (Ivan Porras) llegamos a la conclusión de que debido a la naturaleza del programa sería mucho mas sencilla una implementación hardware.
 
-Por el funcionamiento del botón cuando este se presiona deja pasar la corriente y enciende el led, una vez que se suelte el led dejará de lucir, esto nos quitaría la necesidad de tener que implementarlo de manera software.
+Por el funcionamiento del botón cuando este se presiona pasa la corriente y enciende el led, una vez que se suelte el led dejará de lucir, esto nos quitaría la necesidad de tener que implementarlo de manera software.
 
 [Funcionamiento](https://urjc-my.sharepoint.com/:v:/g/personal/a_madinabeitia_2020_alumnos_urjc_es/EQpbP2tNFgVFgbS7c79JxwEBTr5HWIcARMGrjuCxDGB-7g?e=bB2fnM)
 
 
 ### Montaje
-Si conectamos una patilla de cada botón a negativo y la otra directamente a la parte negativa del led (con su respectiva resistencia) y el led a 3.3 V. Sin necesidad de código, haciendo la función(encender leds con el botón) mucho mas eficiente
+Si conectamos una patilla de cada botón a negativo y la otra directamente a la parte negativa del led (con su respectiva resistencia) y el led a 3.3 V. Sin necesidad de código. Podemos realizar la función de encender leds con el botón de una manera mucho mas eficiente.
 
 <div align = center>
   <img src = "https://github.com/amadinabeitia2020/wiki-sensores-y-actuadores/blob/main/src/2-montaje.jpg?raw=true"
@@ -109,7 +109,6 @@ Para editar la wiki también se necesitaron conocimientos básicos de HTML
 ### Visión estereo
 
 ### Como funciona un airbag
-
 
 
 <br></br>
