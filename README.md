@@ -20,6 +20,7 @@ En este proyecto tuve que crear un token en git para poder subir cambios al repo
 9. Clickeamos en "Generate token".
 10. Guardamos nuestro token en un sitio seguro ya que no se nos volverá a mostrar en git.
 
+
 ### Atajo
 El token es prácticamente imposible de memorizar, para no introducirlo cada vez que subamos un commit creé un alias que guardara en caché el usuario y el token (comado dicho por el profesor en clase)
 ```bash
@@ -28,15 +29,11 @@ git conifg --global alias.tok 'config --global credential.helper cache --timeout
 # Después para ejecutar el comando:
 git tok
 ```
-
-
-
+<br></br>
 ## Experiencia en el [proyecto 1](https://github.com/clases-julio/p1-introrpi3-led-amadinabeitia2020)
 En este proyecto tuvimos que instalar nuestra tarjeta Raspbi con su respectivo sistema operativo y encender un led con ella, ya que cuando realizé el proyecto 1 no se había empezado esta wiki, en el README de este proyecto podemos ecnontrar mi experencia adquirida en el mismo.
 
-
-
-
+<br></br>
 ## Experiencia en el [proyecto 2](https://github.com/clases-julio/p2-introgpio-ledrgb-amadinabeitia2020)
 
 ### Descripción del proyecto:
@@ -52,9 +49,7 @@ En la primera prueba del RGB me dí cuenta de que este no funcionaba como en el 
 <div align="center"> 2. </div>
 Al trabajar sin cambiar los ciclos de cada componente RGB (ejercicio 2) me encontré con el problema de que al combinar algún color con el rojo, predominaba el rojo. Entonces puse una resitencia para cada componente RGB en vez de 1 solo para el cátodo. Probé con varias pero rebajaban demasiado la corriente en el rojo. La solución fué poner la misma resistencia a las 3 componentes por separado. Al realizar esto los colores secundarios dieron una calidad más que aceptable.
 
-
-
-
+<br></br>
 ## Experiencia en el [proyecto 3](https://github.com/clases-julio/p3-interrupciones-amadinabeitia2020)
 
 ### Descripción del proyecto:
@@ -81,14 +76,34 @@ Por el funcionamiento del botón cuando este se presiona deja pasar la corriente
 ### Montaje
 Si conectamos una patilla de cada botón a negativo y la otra directamente a la parte negativa del led (con su respectiva resistencia) y el led a 3.3 V. Sin necesidad de código, haciendo la función(encender leds con el botón) mucho mas eficiente
 
-![alt text](https://github.com/amadinabeitia2020/wiki-sensores-y-actuadores/blob/main/src/2-montaje.jpg?raw=true)
+<img src = "https://github.com/amadinabeitia2020/wiki-sensores-y-actuadores/blob/main/src/2-montaje.jpg?raw=true"
+     alt="Montaje" height="50%" width="50%"
+     style="transform:rotate(90deg);"
+     />
 
-
+<br></br>
 ## Experiencia en el [proyecto 4](https://github.com/clases-julio/p4-threads-amadinabeitia2020)
 
+<br></br>
+## Edición de la wiki
+Para editar la wiki también se necesitaron conocimientos básicos de HTML
 
+1. Comando usado fué para alinear en el centro elementos:
+```html
+  <div align="center"> TEXTO </div>
+```
 
+2. Insertar imágenes:
+```html
+<img src="Dirección imagen" alt="nombre" height="altura" width="ancho"/>
+```
 
+3. Espacio en blanco  
+```html
+<br></br>
+```
+
+<br></br>
 ## Curiosidades 
 ### Visión estereo
 
@@ -96,7 +111,7 @@ Si conectamos una patilla de cada botón a negativo y la otra directamente a la 
 
 
 
-
+<br></br>
 ## Bibliográfia
 - [Etiquetas HTML para README.md](https://github.com/MineiToshio/CursosPlatzi/blob/master/Curso%20de%20Desarrollo%20Web%20Online/README.md)
 - [Como funciona un airbag](https://www.hella.com/techworld/es/Informacion-Tecnica/Electricidad-y-electronica-del-automovil/Sistema-airbag-3083/)
