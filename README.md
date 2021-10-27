@@ -76,10 +76,11 @@ Por el funcionamiento del botón cuando este se presiona deja pasar la corriente
 ### Montaje
 Si conectamos una patilla de cada botón a negativo y la otra directamente a la parte negativa del led (con su respectiva resistencia) y el led a 3.3 V. Sin necesidad de código, haciendo la función(encender leds con el botón) mucho mas eficiente
 
-<img src = "https://github.com/amadinabeitia2020/wiki-sensores-y-actuadores/blob/main/src/2-montaje.jpg?raw=true"
-     alt="Montaje" height="50%" width="50%"
-     style="transform:rotate(90deg);"
+<div align = center>
+  <img src = "https://github.com/amadinabeitia2020/wiki-sensores-y-actuadores/blob/main/src/2-montaje.jpg?raw=true"
+     alt="Montaje" height="80%" width="80%"
      />
+ </div>
 
 <br></br>
 ## Experiencia en el [proyecto 4](https://github.com/clases-julio/p4-threads-amadinabeitia2020)
