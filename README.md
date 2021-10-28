@@ -84,10 +84,19 @@ Si conectamos una patilla de cada botón a negativo y la otra directamente a la 
 
 <br></br>
 ## Experiencia en el [proyecto 4](https://github.com/clases-julio/p4-threads-amadinabeitia2020)
+### Buenas prácticas de programación
 Al empezar con proyectos mas complejos se emplean las buenas tećnicas de programación:
 - Programación orientada a objetos
 - Constantes con mayus
 - ...
+### Conflicto git
+### Famialirización con UMlet
+### Distribución carpetas git
+- fig = imagenes
+- src = codigo
+- doc = documentacion
+### POO
+Atributos ,metodos, (Herencia, implemets uses)
 
 <br></br>
 ## Edición de la wiki
