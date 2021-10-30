@@ -139,7 +139,11 @@ Solucionando lo que tengamos que juntar (en mi caso eran dos archivos distintos 
 ### UMlet
 Esta herramienta nos permite crear un diagrama de nuestro código para poder ver de forma mas clara lo que hace nuestro programa.
 
-Sus elemntos tienen la siguiente nomenclatura:
+Para installar umlet usamos el comando:
+```bash
+sudo apt install umlet
+```
+Sus elementos tienen la siguiente nomenclatura
 
 
 ## Experiencia en el [proyecto 5](https://github.com/clases-julio/p5-encoder-amadinabeitia2020)
