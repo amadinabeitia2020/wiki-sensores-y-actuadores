@@ -144,7 +144,11 @@ Para installar umlet usamos el comando:
 sudo apt install umlet
 ```
 Sus elementos tienen la siguiente nomenclatura
-
+<div align = center>
+  <img src = "https://github.com/amadinabeitia2020/wiki-sensores-y-actuadores/blob/main/fig/3-umlet_basics.png?raw=true"
+     alt="UMLT basics"
+     />
+ </div>
 
 ## Experiencia en el [proyecto 5](https://github.com/clases-julio/p5-encoder-amadinabeitia2020)
 <br></br>
