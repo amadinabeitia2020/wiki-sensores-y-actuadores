@@ -86,14 +86,14 @@ Si conectamos una patilla de cada botón a negativo y la otra directamente a la 
 ## Experiencia en el [proyecto 4](https://github.com/clases-julio/p4-threads-amadinabeitia2020)
 
 ### Distribución carpetas git
-Además también se empezó a hacer una carrecta distribución en los reposistorios de git
+Se empezó a hacer una correcta distribución en los reposistorios de git:
 - fig = Recursos como imágenes
 - src = codigo
 - doc = documentacion
 
 ### Buenas prácticas de programación
-Al empezar con proyectos mas complejos se emplean las buenas tećnicas de programación:
-- Programación orientada a objetos
+Al empezar con proyectos mas complejos se emplean otras tećnicas de programación:
+- Programación modular
 - Constantes con mayusculas
 - No usar variables globales
 
@@ -111,7 +111,7 @@ class Hilo (threading.Thread):
       self.led = led
       self.tim = 10 # ms
 ```
-Además cuando escribimos (self.ALGO) estamos diciendo al programa que estamos invocando a un método u atributo del mismo objeto. Si no lleva self, es una función o variable fuera del dominio del objeto.
+Además cuando escribimos (self.ALGO) estamos comunicando al programa que estamos invocando a un método o atributo del mismo objeto. Si no lleva self, es una función o variable fuera del dominio del objeto.
 ```python3
 # Aquí implementamos un método heredado de Threading.Thread y lo ajustamos a nuestro código
 def run(self): # implementamos interfaz run heredado de Thread
@@ -139,17 +139,25 @@ Solucionando lo que tengamos que juntar (en mi caso eran dos archivos distintos 
 ### UMlet
 Esta herramienta nos permite crear un diagrama de nuestro código para poder ver de forma mas clara lo que hace nuestro programa.
 
-Para installar umlet usamos el comando:
+Para instalar umlet usamos el comando:
 ```bash
 sudo apt install umlet
 ```
 Sus elementos tienen la siguiente nomenclatura
 <div align = center>
   <img src = "https://github.com/amadinabeitia2020/wiki-sensores-y-actuadores/blob/main/fig/3-umlet_basics.png?raw=true"
-     alt="UMLT basics"
+     alt="umlet_basics"
      />
  </div>
-
+ 
+Durante la explicación del profesor de esta herramienta, también hicimos nuestro primer diagrama. Es bastante util ya que podemos exportar los diagramas como imágenes, pdfs...
+<div align = center>
+  <img src = "https://github.com/amadinabeitia2020/wiki-sensores-y-actuadores/blob/main/fig/4-UMLBasic.png?raw=true"
+     alt="UML basic"
+     />
+ </div>
+ 
+<br></br>
 ## Experiencia en el [proyecto 5](https://github.com/clases-julio/p5-encoder-amadinabeitia2020)
 <br></br>
 ## Edición de la wiki
@@ -170,6 +178,17 @@ Para editar la wiki también se necesitaron conocimientos básicos de HTML
 <br></br>
 ```
 
+4. Añadir un link 
+```html
+<a href=”url” target="">name</a>
+```
+Targets:
+- _self: Abre en enlace en la misma pestaña. Es la opción por defecto.
+- _blank: Abre el enlace en una nueva pestaña o ventana.
+- _parent: Abre el enlace en el marco padre
+- _top: Abre el enlace ocupando toda la pantalla
+- Framename: Abre el enlace en un frame determinado.
+
 <br></br>
 ## Curiosidades 
 ### Visión estereo
@@ -182,4 +201,4 @@ Para editar la wiki también se necesitaron conocimientos básicos de HTML
 - [Etiquetas HTML para README.md](https://github.com/MineiToshio/CursosPlatzi/blob/master/Curso%20de%20Desarrollo%20Web%20Online/README.md)
 - [Como funciona un airbag](https://www.hella.com/techworld/es/Informacion-Tecnica/Electricidad-y-electronica-del-automovil/Sistema-airbag-3083/)
 - [Página del grandchallenge](http://www.grandchallenge.org/)
-
+- [Links en HTML](https://www.yoseomarketing.com/blog/crear-hipervinculos-html-links-enlaces/)
