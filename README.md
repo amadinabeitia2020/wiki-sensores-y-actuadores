@@ -192,8 +192,17 @@ Targets:
 <br></br>
 ## Curiosidades 
 ### Visión estereo
+Proximamente...
+### Sensores de un airbag
+Su número depende del nº de airbags disponibles. Los sensores de accidente y aceleración se suelen encontrar directamente en la unidad de control.
 
-### Como funciona un airbag
+Los sensores frontales suelen trabajar según el sistema masa-resorte. Dentro del mismo se encuentra una polea con bastante peso. Esta misma está rodeada por una abrazadera de bronce, cuyo extremo va fijado a la polea de peso y a la carcasa del sensor. Así solo se podrá sensar fuerza en una dirección.
+
+Si se aplica la fuerza, la polea de peso gira contra la abrazadera de bronce haciendo contacto y cerrando el circuito. El sensor tiene una impedancia muy elevada para evitar que los airbags salten sin necesidad.
+
+También se emplean sensores con masa de silicio, sensores de presión(en las puertas).
+
+El umbral de activación de los sensores suele ser de 3 - 5 g. Se usan 2 sensores que trabajan de manera independite de nuevo para evitar falasas lecturas. 
 
 
 <br></br>
