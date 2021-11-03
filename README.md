@@ -44,11 +44,13 @@ En el segundo ejercicio el usuario introduce uno de los colores disponibles como
 ### Problemas a resaltar:
 <div align="center"> 1. </div>
   
-En la primera prueba del RGB me dí cuenta de que este no funcionaba como en el manual, tenía la polaridad cambiada (había que conectar el cátodo a 3.3 V) por lo que las instrucciones de HIGH y LOW había que ponerlas a la inversa para que luciera. De todos modos los prgramas están hechos con un RGB que tiene la polaridad estandar.
+En la primera prueba del RGB me dí cuenta de que este no funcionaba como en el manual, tenía la polaridad cambiada (había que conectar el ánodo a 3.3 V) por lo que las instrucciones de HIGH y LOW había que ponerlas a la inversa para que luciera. De todos modos los prgramas están hechos con un RGB que tiene la polaridad estandar.
 
 <div align="center"> 2. </div>
-Al trabajar sin cambiar los ciclos de cada componente RGB (ejercicio 2) me encontré con el problema de que al combinar algún color con el rojo, predominaba el rojo. Entonces puse una resitencia para cada componente RGB en vez de 1 solo para el cátodo. Probé con varias pero rebajaban demasiado la corriente en el rojo. La solución fué poner la misma resistencia a las 3 componentes por separado. Al realizar esto los colores secundarios dieron una calidad más que aceptable.
+Al trabajar sin cambiar los ciclos de cada componente RGB (ejercicio 2) me encontré con el problema de que al combinar algún color con el rojo, predominaba el rojo. Entonces puse una resitencia para cada componente RGB en vez de 1 solo para el ánodo. Probé con varias pero rebajaban demasiado la corriente en el rojo. La solución fué poner la misma resistencia a las 3 componentes por separado. Al realizar esto los colores secundarios dieron una calidad más que aceptable.
 
+<div align="center"> 2. </div>
+Durante la práctica hay un fallo, me refiero al ánodo como el cátodo. 
 <br></br>
 ## Experiencia en el [proyecto 3](https://github.com/clases-julio/p3-interrupciones-amadinabeitia2020)
 
