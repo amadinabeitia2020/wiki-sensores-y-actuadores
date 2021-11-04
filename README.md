@@ -163,6 +163,8 @@ Durante la explicación del profesor de esta herramienta, también hicimos nuest
 ## Experiencia en el [proyecto 5](https://github.com/clases-julio/p5-encoder-amadinabeitia2020)
 ### Conectarse por ssh a raspbi
 ### Problema-solución de sensor infrarrojos estropeado
+<br></br>
+## Experiencia en el [proyecto 6]()
 
 
 <br></br>
