@@ -49,9 +49,10 @@ En la primera prueba del RGB me dí cuenta de que este no funcionaba como en el 
 <div align="center"> 2. </div>
 Al trabajar sin cambiar los ciclos de cada componente RGB (ejercicio 2) me encontré con el problema de que al combinar algún color con el rojo, predominaba el rojo. Entonces puse una resitencia para cada componente RGB en vez de 1 solo para el ánodo. Probé con varias pero rebajaban demasiado la corriente en el rojo. La solución fué poner la misma resistencia a las 3 componentes por separado. Al realizar esto los colores secundarios dieron una calidad más que aceptable.
 
-<div align="center"> 2. </div>
+<div align="center"> 3. </div>
 Durante la práctica hay un fallo, me refiero al ánodo como el cátodo. 
 <br></br>
+
 ## Experiencia en el [proyecto 3](https://github.com/clases-julio/p3-interrupciones-amadinabeitia2020)
 
 ### Descripción del proyecto:
@@ -162,16 +163,19 @@ Durante la explicación del profesor de esta herramienta, también hicimos nuest
 <br></br>
 ## Experiencia en el [proyecto 5](https://github.com/clases-julio/p5-encoder-amadinabeitia2020)
 ### Conectarse por ssh a raspbi
+Por ciertos motivos necesité manejar la raspberry de foma remota ya que no disponía de monitor, así conseguí conectarme a la placa por ssh:
+
 ### Problema-solución de sensor infrarrojos estropeado
+En este proyecto tuve el problema de que el sensor requerido no me funcionaba por lo que utilicé uno que tenía de proyectos anteriores. Esto a su vez me permitió mayor libertad para distribuir los componentes. Todas las especificaciones del sensor y su funcionamiento están en el proyecto. 
 <br></br>
-## Experiencia en el [proyecto 6]()
+## Experiencia en el [proyecto 6](https://github.com/clases-julio/p6-distanciaus-amadinabeitia2020)
 
 
 <br></br>
 ## Edición de la wiki
 Para editar la wiki también se necesitaron conocimientos básicos de HTML
 
-1. Comando usado fué para alinear en el centro elementos:
+1. Alineación de elementos:
 ```html
   <div align="center"> TEXTO </div>
 ```
@@ -199,8 +203,6 @@ Targets:
 
 <br></br>
 ## Curiosidades 
-### Visión estereo
-Proximamente...
 ### Sensores de un airbag
 Su número depende del nº de airbags disponibles. Los sensores de accidente y aceleración se suelen encontrar directamente en la unidad de control.
 
@@ -219,3 +221,4 @@ El umbral de activación de los sensores suele ser de 3 - 5 g. Se usan 2 sensore
 - [Como funciona un airbag](https://www.hella.com/techworld/es/Informacion-Tecnica/Electricidad-y-electronica-del-automovil/Sistema-airbag-3083/)
 - [Página del grandchallenge](http://www.grandchallenge.org/)
 - [Links en HTML](https://www.yoseomarketing.com/blog/crear-hipervinculos-html-links-enlaces/)
+- [Conectarse a raspberrypi por ssh](https://tonyteaches.tech/raspberry-pi-ssh/)
