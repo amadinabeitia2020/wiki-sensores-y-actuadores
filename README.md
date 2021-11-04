@@ -168,6 +168,10 @@ Por ciertos motivos necesité manejar la raspberry de foma remota ya que no disp
 ### Problema-solución de sensor infrarrojos estropeado
 En este proyecto tuve el problema de que el sensor requerido no me funcionaba por lo que utilicé uno que tenía de proyectos anteriores. Esto a su vez me permitió mayor libertad para distribuir los componentes. Todas las especificaciones del sensor y su funcionamiento están en el proyecto. 
 <br></br>
+
+ ### Fritzing
+ Utilizamos el software de fritzing para empezar a representar nuestros circuitos.
+
 ## Experiencia en el [proyecto 6](https://github.com/clases-julio/p6-distanciaus-amadinabeitia2020)
 
 
@@ -222,3 +226,4 @@ El umbral de activación de los sensores suele ser de 3 - 5 g. Se usan 2 sensore
 - [Página del grandchallenge](http://www.grandchallenge.org/)
 - [Links en HTML](https://www.yoseomarketing.com/blog/crear-hipervinculos-html-links-enlaces/)
 - [Conectarse a raspberrypi por ssh](https://tonyteaches.tech/raspberry-pi-ssh/)
+- [Repo fritzing en github](https://github.com/fritzing/fritzing-app)
