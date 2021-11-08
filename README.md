@@ -166,7 +166,16 @@ Durante la explicación del profesor de esta herramienta, también hicimos nuest
 Por ciertos motivos necesité manejar la raspberry de foma remota ya que no disponía de monitor, así conseguí conectarme a la placa por ssh:
 
 ### Problema-solución de sensor infrarrojos estropeado
-En este proyecto tuve el problema de que el sensor requerido no me funcionaba por lo que utilicé uno que tenía de proyectos anteriores. Esto a su vez me permitió mayor libertad para distribuir los componentes. Todas las especificaciones del sensor y su funcionamiento están en el proyecto. 
+En este proyecto tuve el problema de que el sensor requerido no me funcionaba por lo que utilicé uno que tenía de proyectos anteriores. Esto a su vez me permitió mayor libertad para distribuir los componentes. Todas las especificaciones del sensor y su funcionamiento están en el proyecto.
+
+En el caso del emisor desmonté un mando a distancia para quitarle su led infrarrojo y enviar mis propias señales, no conseguí un resultado estable por lo que opté por terminar el proyecto con el mando normal. 
+
+Este es el mando desmontado:
+INSERTAR IMAGENES DE AMBOS MANDOS
+
+Su funcionamientoes sencillo, la alimentación se conecta por las dos patillas de abajo. Las teclas poseen elementos conductores que al presionarse cierran un circuito, este circuito dependiendo de la tecla que sea transmite una señal infrarroja u otra.
+
+Además se intentó hacer girar las aspas con un motor pero este producía interferencias al sensor y este tomaba falsas lecturas infrarojas por el motor (mo llegué a saber por que), por lo que hice un mecanismo manual para girar el aspa. 
 <br></br>
 
  ### Fritzing
@@ -204,6 +213,23 @@ Targets:
 - _parent: Abre el enlace en el marco padre
 - _top: Abre el enlace ocupando toda la pantalla
 - Framename: Abre el enlace en un frame determinado.
+
+<br></br
+## Componentes electrónicos:
+### Funcionamiento de un potenciómetro
+Un potenciómetro suele tener 2 resistencias en serie y su funcionamiento se da en base a la caida de la tensión como ocurre en una resistencia
+<div align="center">
+  <img src="INSERTAR IMAGEN DEL PROYECTO 5" 
+     alt="Potenciometro por dentro"
+     /> </div>
+     
+- La terminal 1 es la entrada de voltaje.
+- La terminal 2 es la salida de voltaje.
+- La terminal 3 es la toma a tierra.
+
+La corriente entra por la terminal 1, pasa por el material resistivo la distancia que haya configurado el usuario y sale por la terminal 2.
+
+## Funcionamiento de un sensor infrarrojo (práctica 5)
 
 <br></br>
 ## Curiosidades 
