@@ -253,3 +253,5 @@ El umbral de activación de los sensores suele ser de 3 - 5 g. Se usan 2 sensore
 - [Links en HTML](https://www.yoseomarketing.com/blog/crear-hipervinculos-html-links-enlaces/)
 - [Conectarse a raspberrypi por ssh](https://tonyteaches.tech/raspberry-pi-ssh/)
 - [Repo fritzing en github](https://github.com/fritzing/fritzing-app)
+- [Funcionamiento de un potenciómetro](https://comofunciona.co.com/un-potenciometro/)
+- [Imagen potenciómetro](https://intelectouniversal.com/electronica/potenciometro/)
