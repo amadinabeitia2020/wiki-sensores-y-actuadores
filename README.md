@@ -164,6 +164,18 @@ Durante la explicación del profesor de esta herramienta, también hicimos nuest
 ## Experiencia en el [proyecto 5](https://github.com/clases-julio/p5-encoder-amadinabeitia2020)
 ### Conectarse por ssh a raspbi
 Por ciertos motivos necesité manejar la raspberry de foma remota ya que no disponía de monitor, así conseguí conectarme a la placa por ssh:
+```bash
+# Activamos el servicio ssh en nuestra raspberrypi:
+sudo systemctl enable ssh
+sudo systemctl start ssh
+
+# Comprobamos nuestra IP de la placa
+hostname -I
+
+# Siempre que estemos en la misma red nos podremos conectar:
+ssh username@IP
+
+```
 
 ### Problema-solución de sensor infrarrojos estropeado
 En este proyecto tuve el problema de que el sensor requerido no me funcionaba por lo que utilicé uno que tenía de proyectos anteriores. Esto a su vez me permitió mayor libertad para distribuir los componentes. Todas las especificaciones del sensor y su funcionamiento están en el proyecto.
@@ -171,11 +183,14 @@ En este proyecto tuve el problema de que el sensor requerido no me funcionaba po
 En el caso del emisor desmonté un mando a distancia para quitarle su led infrarrojo y enviar mis propias señales, no conseguí un resultado estable por lo que opté por terminar el proyecto con el mando normal. 
 
 Este es el mando desmontado:
-INSERTAR IMAGENES DE AMBOS MANDOS
+<div class="Mandos">
+<img src="https://github.com/amadinabeitia2020/wiki-sensores-y-actuadores/blob/main/fig/mando1.jpg?raw=true" height="40%" width="40%"/>
+<img src="https://github.com/amadinabeitia2020/wiki-sensores-y-actuadores/blob/main/fig/mando2.jpg?raw=true" height="40%" width="40%"/>
+</div>
 
 Su funcionamientoes sencillo, la alimentación se conecta por las dos patillas de abajo. Las teclas poseen elementos conductores que al presionarse cierran un circuito, este circuito dependiendo de la tecla que sea transmite una señal infrarroja u otra.
 
-Además se intentó hacer girar las aspas con un motor pero este producía interferencias al sensor y este tomaba falsas lecturas infrarojas por el motor (mo llegué a saber por que), por lo que hice un mecanismo manual para girar el aspa. 
+Además se intentó hacer girar las aspas con un motor pero este producía interferencias al sensor y este tomaba falsas lecturas infrarojas por el motor (no llegué a saber por que), por lo que hice un mecanismo manual para girar el aspa. 
 <br></br>
 
  ### Fritzing
@@ -194,10 +209,18 @@ Para editar la wiki también se necesitaron conocimientos básicos de HTML
 ```
 
 2. Insertar imágenes:
+
+a) Imagen alineada: 
 ```html
 <img src="Dirección imagen" alt="nombre" height="altura" width="ancho"/>
 ```
-
+ b) Imagenes contiguas:
+```html
+<div class="Nombre">
+<img src="Dirección imagen 1">
+<img src="Dirección imagen 2"/>
+</div>
+```
 3. Espacio en blanco  
 ```html
 <br></br>
@@ -213,13 +236,12 @@ Targets:
 - _parent: Abre el enlace en el marco padre
 - _top: Abre el enlace ocupando toda la pantalla
 - Framename: Abre el enlace en un frame determinado.
-
-<br></br
+<br></br>
 ## Componentes electrónicos:
 ### Funcionamiento de un potenciómetro
 Un potenciómetro suele tener 2 resistencias en serie y su funcionamiento se da en base a la caida de la tensión como ocurre en una resistencia
 <div align="center">
-  <img src="INSERTAR IMAGEN DEL PROYECTO 5" 
+  <img src="https://github.com/amadinabeitia2020/wiki-sensores-y-actuadores/blob/main/fig/funcionamientoPotenciometro.png?raw=true" 
      alt="Potenciometro por dentro"
      /> </div>
      
@@ -229,7 +251,7 @@ Un potenciómetro suele tener 2 resistencias en serie y su funcionamiento se da 
 
 La corriente entra por la terminal 1, pasa por el material resistivo la distancia que haya configurado el usuario y sale por la terminal 2.
 
-## Funcionamiento de un sensor infrarrojo (práctica 5)
+## Funcionamiento de un sensor infrarrojo (Mirar dentro de la práctica 5)
 
 <br></br>
 ## Curiosidades 
@@ -255,3 +277,4 @@ El umbral de activación de los sensores suele ser de 3 - 5 g. Se usan 2 sensore
 - [Repo fritzing en github](https://github.com/fritzing/fritzing-app)
 - [Funcionamiento de un potenciómetro](https://comofunciona.co.com/un-potenciometro/)
 - [Imagen potenciómetro](https://intelectouniversal.com/electronica/potenciometro/)
+- [Conexión por ssh](https://www.ionos.es/digitalguide/servidores/configuracion/activar-ssh-en-raspberry-pi/)
