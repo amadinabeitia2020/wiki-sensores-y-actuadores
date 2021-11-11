@@ -197,6 +197,11 @@ Además se intentó hacer girar las aspas con un motor pero este producía inter
 
 ## Experiencia en el [proyecto 6](https://github.com/clases-julio/p6-distanciaus-amadinabeitia2020)
 Este proyecto desde mi punto personal no tuvo gran dificultad ya que había trabajado con aterioridad con sensores ultrasónicos. Con algo con lo que si que no había trabajado es con el voltímetro y en este proyecto me dí cuenta que no conectaba de manera adecuada las entradas. 
+<div align = center>
+  <img src = "https://github.com/amadinabeitia2020/wiki-sensores-y-actuadores/blob/main/fig/voltimetroCorrecto.jpg?raw=true"
+     alt="Voltimetro bien conectado" height="50%" width="50%"
+     />
+ </div>
 
 <br></br>
 ## Edición de la wiki
@@ -251,6 +256,7 @@ Un potenciómetro suele tener 2 resistencias en serie y su funcionamiento se da 
 La corriente entra por la terminal 1, pasa por el material resistivo la distancia que haya configurado el usuario y sale por la terminal 2.
 
 ## Funcionamiento de un sensor infrarrojo (Mirar dentro de la práctica 5)
+## Funcionamiento de un zumbador (Práctica 6)
 
 <br></br>
 ## Curiosidades 
