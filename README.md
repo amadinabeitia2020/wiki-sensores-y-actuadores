@@ -192,7 +192,12 @@ Su funcionamientoes sencillo, la alimentación se conecta por las dos patillas d
 Además se intentó hacer girar las aspas con un motor pero este producía interferencias al sensor y este tomaba falsas lecturas infrarojas por el motor (no llegué a saber por que), por lo que hice un mecanismo manual para girar el aspa. 
 
  ### Fritzing
- Utilizamos el software de fritzing para empezar a representar nuestros circuitos.
+ Utilizamos el software de fritzing para empezar a representar nuestros circuitos, una programa cuya beta es gratuita y es bastante sencillo de usar.
+ 
+ Instalación:
+ ```bash
+ sudo apt install fritzing
+ ```
 <br></br>
 ## Experiencia en el [proyecto 6](https://github.com/clases-julio/p6-distanciaus-amadinabeitia2020)
 Este proyecto desde mi punto personal no tuvo gran dificultad ya que había trabajado con aterioridad con sensores ultrasónicos. Con algo con lo que si que no había trabajado es con el voltímetro y en este proyecto me dí cuenta que no conectaba de manera adecuada las entradas. 
