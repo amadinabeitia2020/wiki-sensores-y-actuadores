@@ -209,7 +209,7 @@ Este proyecto desde mi punto personal no tuvo gran dificultad ya que había trab
  
  <br></br>
  ## Experiencia en el [proyecto 7](https://github.com/clases-julio/p7-reedswitch-amadinabeitia2020)
- En este código pude apreciar lo útil lo claro que es hacer un código limpio y reutilizable ya que nos puede servir para otros programas.
+ En este código pude apreciar lo útil lo claro que es hacer un código limpio y reutilizable ya que nos puede servir para otros programas. Ya que no era un proyecto complejo decidí no poner clases ya que hacía menos legible el código.
 
 <br></br>
 ## Edición de la wiki
