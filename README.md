@@ -190,11 +190,10 @@ Este es el mando desmontado:
 Su funcionamientoes sencillo, la alimentación se conecta por las dos patillas de abajo. Las teclas poseen elementos conductores que al presionarse cierran un circuito, este circuito dependiendo de la tecla que sea transmite una señal infrarroja u otra.
 
 Además se intentó hacer girar las aspas con un motor pero este producía interferencias al sensor y este tomaba falsas lecturas infrarojas por el motor (no llegué a saber por que), por lo que hice un mecanismo manual para girar el aspa. 
-<br></br>
 
  ### Fritzing
  Utilizamos el software de fritzing para empezar a representar nuestros circuitos.
-
+<br></br>
 ## Experiencia en el [proyecto 6](https://github.com/clases-julio/p6-distanciaus-amadinabeitia2020)
 Este proyecto desde mi punto personal no tuvo gran dificultad ya que había trabajado con aterioridad con sensores ultrasónicos. Con algo con lo que si que no había trabajado es con el voltímetro y en este proyecto me dí cuenta que no conectaba de manera adecuada las entradas. 
 <div align = center>
@@ -202,6 +201,10 @@ Este proyecto desde mi punto personal no tuvo gran dificultad ya que había trab
      alt="Voltimetro bien conectado" height="50%" width="50%"
      />
  </div>
+ 
+ <br></br>
+ ## Experiencia en el [proyecto 7](https://github.com/clases-julio/p7-reedswitch-amadinabeitia2020)
+ En este código pude apreciar lo útil lo claro que es hacer un código limpio y reutilizable ya que nos puede servir para otros programas.
 
 <br></br>
 ## Edición de la wiki
