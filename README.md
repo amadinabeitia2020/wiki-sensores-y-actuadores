@@ -2,8 +2,6 @@
 Experiencia adquirida por la asignatura de sensores y actuadores.
 
 Alumno: Adrián Madinabeitia Portanova.
-## Herramientas útiles:
-
 
 ## Experiencia en el [proyecto 0](https://github.com/clases-julio/p0-welcome-amadinabeitia2020)
 Durante este proyecto nos familiarizamos con git, haciendo varias pruebas como eliminar y añadir archivos o directorios, crear commits o añadir imagenes y links a nuestro README. 
@@ -198,7 +196,7 @@ Además se intentó hacer girar las aspas con un motor pero este producía inter
  Utilizamos el software de fritzing para empezar a representar nuestros circuitos.
 
 ## Experiencia en el [proyecto 6](https://github.com/clases-julio/p6-distanciaus-amadinabeitia2020)
-
+Este proyecto desde mi punto personal no tuvo gran dificultad ya que había trabajado con aterioridad con sensores ultrasónicos. Con algo con lo que si que no había trabajado es con el voltímetro y en este proyecto me dí cuenta que no conectaba de manera adecuada las entradas. 
 
 <br></br>
 ## Edición de la wiki
