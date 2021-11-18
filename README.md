@@ -266,8 +266,10 @@ Un potenciómetro suele tener 2 resistencias en serie y su funcionamiento se da 
 
 La corriente entra por la terminal 1, pasa por el material resistivo la distancia que haya configurado el usuario y sale por la terminal 2.
 
-## Funcionamiento de un sensor infrarrojo (Mirar dentro de la práctica 5)
-## Funcionamiento de un zumbador (Práctica 6)
+### Funcionamiento de un sensor infrarrojo (Mirar dentro de la práctica 5)
+### Funcionamiento de un zumbador (Práctica 6)
+### Funcionamiento de ReedSwitch (Práctica 7)
+### Funcionamiento de un sensor de humedad (Práctica 8)
 
 <br></br>
 ## Curiosidades 
