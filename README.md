@@ -3,6 +3,8 @@ Experiencia adquirida por la asignatura de sensores y actuadores.
 
 Alumno: Adrián Madinabeitia Portanova.
 
+----
+
 ## Experiencia en el [proyecto 0](https://github.com/clases-julio/p0-welcome-amadinabeitia2020)
 Durante este proyecto nos familiarizamos con git, haciendo varias pruebas como eliminar y añadir archivos o directorios, crear commits o añadir imagenes y links a nuestro README. 
 
@@ -28,11 +30,13 @@ git config --global alias.tok 'config --global credential.helper cache --timeout
 # Después para ejecutar el comando:
 git tok
 ```
-<br></br>
+----
+
 ## Experiencia en el [proyecto 1](https://github.com/clases-julio/p1-introrpi3-led-amadinabeitia2020)
 En este proyecto tuvimos que instalar nuestra tarjeta Raspbi con su respectivo sistema operativo y encender un led con ella, ya que cuando realizé el proyecto 1 no se había empezado esta wiki, en el README de este proyecto podemos ecnontrar mi experencia adquirida en el mismo.
 
-<br></br>
+----
+
 ## Experiencia en el [proyecto 2](https://github.com/clases-julio/p2-introgpio-ledrgb-amadinabeitia2020)
 
 ### Descripción del proyecto:
@@ -50,7 +54,8 @@ Al trabajar sin cambiar los ciclos de cada componente RGB (ejercicio 2) me encon
 
 <div align="center"> 3. </div>
 Durante la práctica hay un fallo, me refiero al ánodo como el cátodo. 
-<br></br>
+
+----
 
 ## Experiencia en el [proyecto 3](https://github.com/clases-julio/p3-interrupciones-amadinabeitia2020)
 
@@ -84,7 +89,8 @@ Si conectamos una patilla de cada botón a negativo y la otra directamente a la 
      />
  </div>
 
-<br></br>
+----
+
 ## Experiencia en el [proyecto 4](https://github.com/clases-julio/p4-threads-amadinabeitia2020)
 
 ### Distribución carpetas git
@@ -159,7 +165,8 @@ Durante la explicación del profesor de esta herramienta, también hicimos nuest
      />
  </div>
  
-<br></br>
+ ----
+ 
 ## Experiencia en el [proyecto 5](https://github.com/clases-julio/p5-encoder-amadinabeitia2020)
 ### Conectarse por ssh a raspbi
 Por ciertos motivos necesité manejar la raspberry de foma remota ya que no disponía de monitor, así conseguí conectarme a la placa por ssh:
@@ -198,7 +205,8 @@ Además se intentó hacer girar las aspas con un motor pero este producía inter
  ```bash
  sudo apt install fritzing
  ```
-<br></br>
+----
+
 ## Experiencia en el [proyecto 6](https://github.com/clases-julio/p6-distanciaus-amadinabeitia2020)
 Este proyecto desde mi punto personal no tuvo gran dificultad ya que había trabajado con aterioridad con sensores ultrasónicos. Con algo con lo que si que no había trabajado es con el voltímetro y en este proyecto me dí cuenta que no conectaba de manera adecuada las entradas. 
 <div align = center>
@@ -207,7 +215,8 @@ Este proyecto desde mi punto personal no tuvo gran dificultad ya que había trab
      />
  </div>
  
- <br></br>
+ ----
+ 
  ## Experiencia en el [proyecto 7](https://github.com/clases-julio/p7-reedswitch-amadinabeitia2020)
  En este código pude apreciar lo útil lo claro que es hacer un código limpio y reutilizable ya que nos puede servir para otros programas. Ya que no era un proyecto complejo decidí no poner clases ya que hacía menos legible el código.
 <br></br>
@@ -271,7 +280,8 @@ La corriente entra por la terminal 1, pasa por el material resistivo la distanci
 ### Funcionamiento de ReedSwitch (Práctica 7)
 ### Funcionamiento de un sensor de humedad (Práctica 8)
 
-<br></br>
+----
+
 ## Curiosidades 
 ### Sensores de un airbag
 Su número depende del nº de airbags disponibles. Los sensores de accidente y aceleración se suelen encontrar directamente en la unidad de control.
@@ -284,8 +294,8 @@ También se emplean sensores con masa de silicio, sensores de presión(en las pu
 
 El umbral de activación de los sensores suele ser de 3 - 5 g. Se usan 2 sensores que trabajan de manera independite de nuevo para evitar falasas lecturas. 
 
+----
 
-<br></br>
 ## Bibliográfia
 - [Etiquetas HTML para README.md](https://github.com/MineiToshio/CursosPlatzi/blob/master/Curso%20de%20Desarrollo%20Web%20Online/README.md)
 - [Como funciona un airbag](https://www.hella.com/techworld/es/Informacion-Tecnica/Electricidad-y-electronica-del-automovil/Sistema-airbag-3083/)
