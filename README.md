@@ -232,8 +232,8 @@ sudo systemctl enable mydaemon
 sudo systemctl start  mydaemon
 
 ```
-<img src = "https://github.com/amadinabeitia2020/wiki-sensores-y-actuadores/blob/main/fig/voltimetroCorrecto.jpg?raw=true"
-     alt="Voltimetro bien conectado" height="50%" width="50%"
+<img src = "https://github.com/amadinabeitia2020/wiki-sensores-y-actuadores/blob/main/fig/daemon.png?raw=true"
+     alt="Demonio"
      />
  </div>
 
@@ -324,4 +324,4 @@ El umbral de activación de los sensores suele ser de 3 - 5 g. Se usan 2 sensore
 - [Funcionamiento de un potenciómetro](https://comofunciona.co.com/un-potenciometro/)
 - [Imagen potenciómetro](https://intelectouniversal.com/electronica/potenciometro/)
 - [Conexión por ssh](https://www.ionos.es/digitalguide/servidores/configuracion/activar-ssh-en-raspberry-pi/)
-- [Creación de demonio](https://voragine.net/linux/como-crear-y-gestionar-demonios-en-linux-con-systemd)
+- [Creación de demonio](https://betterprogramming.pub/unleashing-your-daemons-creating-services-on-ubuntu-731cd933e02e)
