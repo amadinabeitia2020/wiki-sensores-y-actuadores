@@ -222,6 +222,21 @@ Este proyecto desde mi punto personal no tuvo gran dificultad ya que había trab
 <br></br>
 ## Experiencia en el [proyecto 8](https://github.com/clases-julio/p8-humedad-amadinabeitia2020)
 ### Creación de un demonio
+```bash
+cd /etc/systemd/system
+sudo vim mydaemon.service
+
+% Ponemos el código mostrado en la imagen
+sudo systemctl daemon-reload
+sudo systemctl enable mydaemon
+sudo systemctl start  mydaemon
+
+```
+<img src = "https://github.com/amadinabeitia2020/wiki-sensores-y-actuadores/blob/main/fig/voltimetroCorrecto.jpg?raw=true"
+     alt="Voltimetro bien conectado" height="50%" width="50%"
+     />
+ </div>
+
 ### Latex
 En el siguiente [repositorio](https://gitlab.etsit.urjc.es/jmvega/plantilla-latex-tfg-tfm), en el README se encuentra unos indicios básicos de como funciona latex, además el propio repo es una plantilla para hacer latex. Como editor utilicé [overleaf](https://www.overleaf.com/project), una plataforma gratuita para editar latex y poder ir compilando el código mientras se edita
 
