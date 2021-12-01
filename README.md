@@ -223,6 +223,7 @@ Este proyecto desde mi punto personal no tuvo gran dificultad ya que había trab
 ## Experiencia en el [proyecto 8](https://github.com/clases-julio/p8-humedad-amadinabeitia2020)
 ### Creación de un demonio
 ### Latex
+En el siguiente [repositorio](https://gitlab.etsit.urjc.es/jmvega/plantilla-latex-tfg-tfm), en el README se encuentra unos indicios básicos de como funciona latex, además el propio repo es una plantilla para hacer latex. (Es el utilizado en la práctica 8)
 <br></br>
 ## Edición de la wiki
 Para editar la wiki también se necesitaron conocimientos básicos de HTML
@@ -306,3 +307,4 @@ El umbral de activación de los sensores suele ser de 3 - 5 g. Se usan 2 sensore
 - [Funcionamiento de un potenciómetro](https://comofunciona.co.com/un-potenciometro/)
 - [Imagen potenciómetro](https://intelectouniversal.com/electronica/potenciometro/)
 - [Conexión por ssh](https://www.ionos.es/digitalguide/servidores/configuracion/activar-ssh-en-raspberry-pi/)
+- [Creación de demonio](https://voragine.net/linux/como-crear-y-gestionar-demonios-en-linux-con-systemd)
