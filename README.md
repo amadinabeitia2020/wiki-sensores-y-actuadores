@@ -219,7 +219,9 @@ Este proyecto desde mi punto personal no tuvo gran dificultad ya que había trab
  
  ## Experiencia en el [proyecto 7](https://github.com/clases-julio/p7-reedswitch-amadinabeitia2020)
  En este código pude apreciar lo útil lo claro que es hacer un código limpio y reutilizable ya que nos puede servir para otros programas. Ya que no era un proyecto complejo decidí no poner clases ya que hacía menos legible el código.
-<br></br>
+
+---
+
 ## Experiencia en el [proyecto 8](https://github.com/clases-julio/p8-humedad-amadinabeitia2020)
 ### Creación de un demonio
 ```bash
@@ -240,6 +242,9 @@ sudo systemctl start  mydaemon
 ### Latex
 En el siguiente [repositorio](https://gitlab.etsit.urjc.es/jmvega/plantilla-latex-tfg-tfm), en el README se encuentra unos indicios básicos de como funciona latex, además el propio repo es una plantilla para hacer latex. Como editor utilicé [overleaf](https://www.overleaf.com/project), una plataforma gratuita para editar latex y poder ir compilando el código mientras se edita
 
+---
+
+## Experiencia en el  [proyecto 9](https://github.com/clases-julio/p9-fuerza-presencia-amadinabeitia2020)
 ---
 
 ## Edición de la wiki
