@@ -245,7 +245,11 @@ En el siguiente [repositorio](https://gitlab.etsit.urjc.es/jmvega/plantilla-late
 ---
 
 ## Experiencia en el  [proyecto 9](https://github.com/clases-julio/p9-fuerza-presencia-amadinabeitia2020)
+En este proyecto simplemente se cogió el código empleado en el ejercicio anterior y se aplicó a los sensores de presión y de presencia. Lo más interesante de la práctica fué combinar dos sensores para hacer un sistema más complejo que los vistos anteriormente.
+
 ---
+
+## Experiencia en el [proyecto 10](https://github.com/clases-julio/p10-servo-amadinabeitia2020)
 
 ## Edición de la wiki
 Para editar la wiki también se necesitaron conocimientos básicos de HTML
@@ -297,11 +301,6 @@ Un potenciómetro suele tener 2 resistencias en serie y su funcionamiento se da 
 - La terminal 3 es la toma a tierra.
 
 La corriente entra por la terminal 1, pasa por el material resistivo la distancia que haya configurado el usuario y sale por la terminal 2.
-
-### Funcionamiento de un sensor infrarrojo (Mirar dentro de la práctica 5)
-### Funcionamiento de un zumbador (Práctica 6)
-### Funcionamiento de ReedSwitch (Práctica 7)
-### Funcionamiento de un sensor de humedad (Práctica 8)
 
 ----
 
