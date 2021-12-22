@@ -250,6 +250,9 @@ En este proyecto simplemente se cogió el código empleado en el ejercicio anter
 ---
 
 ## Experiencia en el [proyecto 10](https://github.com/clases-julio/p10-servo-amadinabeitia2020)
+Se puede destacar que el programa de velocidad.py se puede usar también para calibrar el motor aunque con cierto error ya que se mide de forma humana.
+
+---
 
 ## Edición de la wiki
 Para editar la wiki también se necesitaron conocimientos básicos de HTML
